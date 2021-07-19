@@ -1641,10 +1641,7 @@ country_event = {
 		tag = JAP
 		war = no
 		owns = 1649
-		NOT = {
-			capital = 1649
-			has_country_flag = capital_in_the_east
-		}
+		NOT = { has_country_flag = capital_in_the_east }
 	}
 	
 	mean_time_to_happen = {

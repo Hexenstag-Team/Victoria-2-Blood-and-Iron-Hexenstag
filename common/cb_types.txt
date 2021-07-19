@@ -450,7 +450,6 @@ acquire_core_state = {
 	
 	allowed_states = {
 		any_owned_province = { is_core = THIS }
-		#NOT = { any_owned_province = { is_capital = yes } }
 	}
 
 	po_demand_state = yes
@@ -542,7 +541,6 @@ acquire_all_cores = {
 	
 	allowed_states = {
 		any_owned_province = { is_core = THIS }
-		#NOT = { any_owned_province = { is_capital = yes } }
 	}
 
 	all_allowed_states = yes
@@ -1172,7 +1170,6 @@ unification_casus_belli = {
 					is_cultural_union = yes
 				}
 			}
-			NOT = { any_owned_province = { is_capital = yes } }
 		}
 		OR = {
 			war_with = THIS
@@ -1188,7 +1185,6 @@ unification_casus_belli = {
 				is_cultural_union = yes
 			}
 		}
-		NOT = { any_owned_province = { is_capital = yes } }
 	}
 	
 	po_demand_state = yes
@@ -2932,7 +2928,6 @@ free_allied_cores = {
 	# FROM - country scope is possible match?
 	# war target country of goal's state
 	allowed_states = {
-		#NOT = { any_owned_province = { is_capital = yes } }
 		NOT = { any_owned_province = { is_core = THIS } }
 		any_owned_province = { is_core = FROM }
 	}
@@ -3347,7 +3342,6 @@ oriental_crisis = {
 	# war target country of goal's state
 	allowed_states = {
 		any_owned_province = { is_core = FROM }
-		#not = { any_owned_province = { is_capital = yes } } #code can deal with capitals they get new state
 	}
 
 	po_transfer_provinces = yes
@@ -5261,7 +5255,6 @@ acquire_state = {
 		}
 		any_state = {
 			is_colonial = no
-			NOT = { any_owned_province = { is_capital = yes } }
 		}
 		OR = {
 			THIS = { civilized = no }
@@ -5321,7 +5314,7 @@ acquire_state = {
 		}
 		NOT = {
 			any_owned_province = { is_core = THIS }
-			any_owned_province = { is_capital = yes }
+
 		}
 		
 		#AI can only grab neighboring states, coastal if it's a coastal GP
@@ -5419,7 +5412,6 @@ acquire_state = {
 	}
 	
 	allowed_states_in_crisis = {
-		NOT = { any_owned_province = { is_capital = yes } }
 		any_owned_province = {
 			any_neighbor_province = {
 				owner = { tag = THIS }
@@ -5537,7 +5529,6 @@ substate_acquire_state = {
 	# FROM - country scope is possible match?
 	# war target country of goal's state
 	allowed_states = {
-		NOT = { any_owned_province = { is_capital = yes } }
 		NOT = { any_owned_province = { is_core = THIS } }
 		NOT = { any_owned_province = { is_core = FROM } }
 		OR = {
@@ -6037,7 +6028,6 @@ demand_concession_casus_belli = {
 	
 	allowed_states = {
 		any_owned_province = { is_colonial = no }
-		NOT = { any_owned_province = { is_capital = yes } }
 		OR = {
 			THIS = { ai = no }
 			OR = {
@@ -6242,7 +6232,7 @@ demand_african_port_casus_belli = {
 		civilized = no
 		is_vassal = no
 		num_of_ports = 1
-		any_owned_province = { port = yes is_capital = no }
+		any_owned_province = { port = yes }
 		OR = {
 			war_with = THIS
 			THIS = {
@@ -6340,7 +6330,6 @@ demand_concession_NI_casus_belli = {
 	
 	allowed_states = {
 		any_owned_province = { is_colonial = no }
-		NOT = { any_owned_province = { is_capital = yes } }
 		OR = {
 			THIS = { ai = no }
 			OR = {
@@ -6549,7 +6538,6 @@ demand_concession_BC_casus_belli = {
 	
 	allowed_states = {
 		any_owned_province = { is_colonial = no }
-		NOT = { any_owned_province = { is_capital = yes } }
 		OR = {
 			THIS = { ai = no }
 			OR = {
@@ -6792,7 +6780,6 @@ conquest = {
 			NOT = {
 				any_state = {
 					is_colonial = no
-					NOT = { any_owned_province = { is_capital = yes } }
 				}
 			}
 			AND = {
@@ -7052,7 +7039,6 @@ annex_africa = {
 	
 	allowed_states = {
 		any_owned_province = { is_colonial = no }
-		#NOT = { any_owned_province = { is_capital = yes } }
 		OR = {
 			THIS = { ai = no }
 			any_owned_province = { any_neighbor_province = { owned_by = THIS } }
@@ -8669,9 +8655,6 @@ dismantle_factories = {
 	# war target country of goal's state
 	allowed_states = {
 		has_building = factory
-		NOT = {
-			any_owned_province = { is_capital = yes }
-		}
 		OR = {
 			THIS = { ai = no }
 			any_owned_province = {
@@ -8877,111 +8860,5 @@ conquest_any = {
 	war_name = WAR_CONQUEST_NAME
 	
 	on_add = {
-	}
-}
-
-take_capital = {
-	sprite_index = 6
-	is_triggered_only = yes
-	months = 12
-	construction_speed = 0.3
-
-	badboy_factor = 2.2
-	prestige_factor = 2
-	peace_cost_factor = 1
-	penalty_factor = 1
-
-	break_truce_prestige_factor = 1
-	break_truce_infamy_factor = 2
-	break_truce_militancy_factor = 2
-	truce_months = 0
-	
-	good_relation_prestige_factor = 1
-	good_relation_infamy_factor = 1
-	good_relation_militancy_factor = 1
-
-	can_use = {
-		is_vassal = no
-		NOT = { 
-			is_our_vassal = THIS
-			has_country_modifier = neutrality
-		}
-		any_state = {
-			is_colonial = no
-			NOT = { any_owned_province = { is_capital = yes } }
-		}
-		OR = {
-			THIS = { civilized = no }
-			civilized = yes
-		}
-		THIS = {
-			NOT = { has_country_modifier = neutrality }
-		}
-		OR = {
-			war_with = THIS
-			THIS = { NOT = { has_country_modifier = no_more_war } }
-		}
-		OR = {
-			THIS = { government = fascist_dictatorship }
-			THIS = { government = proletarian_dictatorship }
-			THIS = { civilized = no }
-			war_with = THIS
-			NOT = {
-				relation = {
-					who = THIS
-					value = 0
-				}
-			}
-			THIS = { ai = no }
-		}
-		#AI anti-military will not use this
-		OR = {
-			THIS = { ai = no }
-			THIS = {
-				NOT = { war_policy = anti_military }
-			}
-		}
-		#AI will not use this CB when duking it out over hegemony
-		OR = {
-			THIS = { ai = no }
-			NOT = {
-				AND = {
-					culture_has_union_tag = yes
-					is_culture_group = THIS
-					cultural_union = { exists = no }
-					is_greater_power = yes
-					THIS = { is_greater_power = yes }
-				}
-			}
-		}
-	}
-	
-	allowed_states = {
-		is_colonial = no
-		any_owned_province = {
-			NOT = {	is_core = THIS }
-			is_colonial = no
-		}
-		any_owned_province = { is_capital = yes }
-	}
-	
-	allowed_states_in_crisis = {
-		any_owned_province = {
-			any_neighbor_province = {
-				owner = { tag = THIS }
-			}
-		}
-	}		
-
-	po_demand_state = yes
-	
-	war_name = WAR_TAKE_NAME
-	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
 	}
 }
