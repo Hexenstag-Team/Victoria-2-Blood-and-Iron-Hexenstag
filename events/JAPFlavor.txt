@@ -1641,7 +1641,12 @@ country_event = {
 		tag = JAP
 		war = no
 		owns = 1649
-		NOT = { has_country_flag = capital_in_the_east }
+		NOT = {
+			OR = {
+				has_country_flag = capital_in_the_east
+				has_country_flag = daimyos_united
+			}
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -1673,6 +1678,7 @@ country_event = {
 	
 	option = {
 		name = "The capital shall remain in Kyoto."
+		capital = 1657
 		1657 = {
 			life_rating = 10
 			add_province_modifier = {
