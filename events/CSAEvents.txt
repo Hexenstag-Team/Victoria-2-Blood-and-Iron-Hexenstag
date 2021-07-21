@@ -723,6 +723,7 @@ country_event = {
 					culture = dixie
 					culture = yankee
 					culture = texan
+					culture = anglo_canadian
 				}
 				NOT = {
 					strata = poor

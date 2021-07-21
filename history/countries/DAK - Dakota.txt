@@ -1,7 +1,7 @@
 capital = 119
 primary_culture = yankee
 culture = dakota
-culture = native_american_minor
+culture = anglo_canadian
 religion = protestant
 government = democracy
 plurality = 0.1

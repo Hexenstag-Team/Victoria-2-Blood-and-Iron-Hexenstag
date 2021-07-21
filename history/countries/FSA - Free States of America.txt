@@ -1,6 +1,7 @@
 capital = 223
 primary_culture = yankee
 culture = afro_american
+culture = anglo_canadian
 religion = protestant
 government = democracy
 plurality = 5.0
