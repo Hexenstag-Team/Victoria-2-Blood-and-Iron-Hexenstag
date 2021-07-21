@@ -61,7 +61,7 @@ party = {
 party = {
 	name = "KMT_liberal_3"
 	start_date = 1920.1.1
-	end_date = 1945.1.1
+	end_date = 9999.12.31
 
 	ideology = liberal
 
@@ -131,7 +131,7 @@ party = {
 party = {
 	name = "KMT_reactionary"
 	start_date = 1812.1.1
-	end_date = 1945.1.1
+	end_date = 9999.12.31
 
 	ideology = reactionary
 
