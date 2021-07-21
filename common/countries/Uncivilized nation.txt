@@ -172,7 +172,7 @@ party = {
 party = {
 	name = "CHI_reactionary_2"
 	start_date = 1912.1.1
-	end_date = 1925.1.1
+	end_date = 9999.12.31
 
 	ideology = reactionary
 
