@@ -121,11 +121,7 @@ political_decisions = {
 			}
 		}
 		ai_will_do = {
-			factor = 0.7
-			modifier = {
-				factor = 0
-				NOT = { any_owned_province = { pop_majority_culture = turkish } }
-			}
+			factor = 1
 		}
 	}
 
