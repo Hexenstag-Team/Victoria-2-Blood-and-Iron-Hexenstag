@@ -468,6 +468,7 @@ country_event = {
 		}
 		is_greater_power = no
 		war = no
+		ai = yes
 		GER = {
 			war = no
 			exists = yes
@@ -1287,6 +1288,7 @@ country_event = {
 			tag = AUS
 			tag = KUK
 		}
+		ai = yes
 		NOT = {
 			has_country_flag = austria_dissolved
 			owns = 619

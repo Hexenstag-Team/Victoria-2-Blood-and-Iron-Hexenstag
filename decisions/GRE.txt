@@ -91,17 +91,12 @@ political_decisions = {
 		}
 		
 		allow = {
-			OR = {
-				is_greater_power = yes
-				is_secondary_power = yes			
-			}
+			is_greater_power = yes
 			all_core = { owned_by = THIS }
 			OR = {
 				government = absolute_monarchy
 				government = prussian_constitutionalism
 				government = hms_government
-				government = fascist_dictatorship
-				government = presidential_dictatorship
 			}		
 		}
 		

@@ -143,14 +143,25 @@ beneluxian = {
 		"van Havre" "van Hoobrouck" "van Innis" "van Meenen" "van Neste" "van Snick" "van Tongerloo" "van Volden de Lombeke" "van Zeeland" 
 		Vandive Verbeke Vercruysse Verduyn Vergauwen "Verseyden de Varick" Verwilghen "Vilain XIIII" Wallaert Wannaar Werbrouck Wyvekens }
 	}
-	boer = {
-		color = {220 145 0}
-		first_names = { Sarel Rudolf Andries Hendrik Piet Racheltjie Dirkie Siener Koos Danie Christiaan Louis Petrus Paul Eugene Joubert
-		}
-		last_names = { Cilliers Botha Joubert Kruger Duquesne Potgieter "van Rensburg" "de la Rey" Theron "de Wet" Pretorius Retief "de Beer" Uys 
-		}
+	wallonian = { 
+		color = { 50 70 130}
+		first_names = { Albert Alexandre Alexis Alphonse André Antoine Auguste Barthélémy Baudouin Blaise Camille Clément Charles Constant 
+		Damien David Désiré Didier Edmond Édouard Emmanuel Émile Etienne Eugène Félix Fernand Feullien Florent François Frédéric Georges 
+		Gérard Gilles Guillaume Gustave Henri Hercule Hubert Ignace Isidore Jacques Jean Jean-Baptiste Jean-François Jean-Louis 
+		Jean-Jacques Joseph Jules Lambert Laurent Léon Léonard Léopold Louis Lucien Mathieu Maxime Maximilien Nicolas Olivier 
+		Pascal Patrice Paul Philippe Philippe-Joseph Pierre Pierre-Guillaume Sébastien Sylvain Théophile Victor Vincent Werner }
+		
+		last_names = { Allard Barbanson Barthélémy Baugniet Beaucarne Berger Berthels Beyts Biver Blargnies Brialmont Bredart Cauvin Collet 
+		Cols Claus Clerix Coquilhat d'Arenberg d'Huart d'Omalius d'Oreye d'Oultremont David Davignon "de Baillet" "de Beaufort" 
+		"de Behr" "de Bocarmé" "de Bousies" "de Brouckère" "de Broqueville" "de Burlet" "de Celles" "de Chasteler" "de Coppin de Falaen"
+		"de Croÿ" "de Decker" "de Dixmude" "de Gerlache" "de Grez" "de Hemptinne" "de Labbeville" "de Lannoy" "de Ligne" "de Leuze" "de Melin" 
+		"de Mérode" "de Pelichy" "de Quarre" "de Riquet" "de Robaulx" "de Rouille" "de Sauvage" "de Sécus" "de Selys Longchamps" 
+		"de Stassart" "de Stockem" "de Theux de Meylandt" "de Trazegnies" "de Trooz" "de Viron" "de Waha" Defacqz Deguise Delacroix 
+		"Desmanet de Biesme" Destriveaux Dethier Devaux Deville Dewandre Dhanis Dreze "du Bois" "du Bus" "du Pont" "du Val de Beaulieu" Dumont
+		Fallon Fendius Figeys Fleury-Dubay Fleussu Forgeur Frison Fuchs Gendebien Goffint Henry "Huysman d'Annecroix" Jacques Joos Jottrand 
+		Lahure Lardinois "le Cocq" "le Hon" Lebeau Leclercq Lefebvre Leman Malou Marcq Marlet Masbourg Nagelmackers Nalinne Nothomb 
+		Orban Pétillon Picquet Pirmez Pirson Raikem Roeser Rogier Rouen Rouppe Seron Thonus Thorn "van Snick" Wahis Wangermée Wyvekens Zoude }
 	}
-	union = NET
 }
 	
 scandinavian = {
@@ -296,6 +307,7 @@ italian = {
 		Howard Mifsud Mintoff Mizzi Muscat Olivier Puli Pullicino Strickland Vella }
 		primary = MLT
 	}
+	
 	union = ITA
 }
 
@@ -428,33 +440,6 @@ french = {
 		Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
 		Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant }
 	}
-	wallonian = { 
-		color = { 50 70 130}
-		first_names = { Albert Alexandre Alexis Alphonse André Antoine Auguste Barthélémy Baudouin Blaise Camille Clément Charles Constant 
-		Damien David Désiré Didier Edmond Édouard Emmanuel Émile Etienne Eugène Félix Fernand Feullien Florent François Frédéric Georges 
-		Gérard Gilles Guillaume Gustave Henri Hercule Hubert Ignace Isidore Jacques Jean Jean-Baptiste Jean-François Jean-Louis 
-		Jean-Jacques Joseph Jules Lambert Laurent Léon Léonard Léopold Louis Lucien Mathieu Maxime Maximilien Nicolas Olivier 
-		Pascal Patrice Paul Philippe Philippe-Joseph Pierre Pierre-Guillaume Sébastien Sylvain Théophile Victor Vincent Werner }
-		
-		last_names = { Allard Barbanson Barthélémy Baugniet Beaucarne Berger Berthels Beyts Biver Blargnies Brialmont Bredart Cauvin Collet 
-		Cols Claus Clerix Coquilhat d'Arenberg d'Huart d'Omalius d'Oreye d'Oultremont David Davignon "de Baillet" "de Beaufort" 
-		"de Behr" "de Bocarmé" "de Bousies" "de Brouckère" "de Broqueville" "de Burlet" "de Celles" "de Chasteler" "de Coppin de Falaen"
-		"de Croÿ" "de Decker" "de Dixmude" "de Gerlache" "de Grez" "de Hemptinne" "de Labbeville" "de Lannoy" "de Ligne" "de Leuze" "de Melin" 
-		"de Mérode" "de Pelichy" "de Quarre" "de Riquet" "de Robaulx" "de Rouille" "de Sauvage" "de Sécus" "de Selys Longchamps" 
-		"de Stassart" "de Stockem" "de Theux de Meylandt" "de Trazegnies" "de Trooz" "de Viron" "de Waha" Defacqz Deguise Delacroix 
-		"Desmanet de Biesme" Destriveaux Dethier Devaux Deville Dewandre Dhanis Dreze "du Bois" "du Bus" "du Pont" "du Val de Beaulieu" Dumont
-		Fallon Fendius Figeys Fleury-Dubay Fleussu Forgeur Frison Fuchs Gendebien Goffint Henry "Huysman d'Annecroix" Jacques Joos Jottrand 
-		Lahure Lardinois "le Cocq" "le Hon" Lebeau Leclercq Lefebvre Leman Malou Marcq Marlet Masbourg Nagelmackers Nalinne Nothomb 
-		Orban Pétillon Picquet Pirmez Pirson Raikem Roeser Rogier Rouen Rouppe Seron Thonus Thorn "van Snick" Wahis Wangermée Wyvekens Zoude }
-	}
-	french_canadian = { 
-		color = {168 195 255}
-		radicalism = 10
-		first_names = { Narcisse René Èdouard Luc Letellier Théodore Louis Francois Auguste Joseph Pierre Luis-Phillippe Jean Gaspard Eugéne Èssioff Huguel Jean-Pierre Gilles
-		}
-		last_names = { Belleau Caron "de St.-Just" Robitaille Masson Angers Chapleau Jotte Pantaléon Langelier Damasne LeBlanc Brodeur Perodeau
-		}
-	}
 	union = FRA
 }
 
@@ -543,7 +528,6 @@ south_slavic = {
 		Sarajlic Selimovic Silajdzic Sokolovic Spaho Terzic Tihic Turaljic Tükcan Ugljanin 
 		}
 	}
-	union = YUG
 }
 
 pan_romanian = {
@@ -684,6 +668,7 @@ czecho_slovak_culture_group = {
 		Tomásek Tyl Vitásek "von Mittrowitz-Nettolitzky" Vorisek Wankel Weber Zíbrt Zívr Zoubek }
 		radicalism = 5
 	}
+	
 	slovak = {
 		color = {120 255 255}
 		first_names = { Albín Alexander András Andrej Augustín Basil Cyprián Dalibor Dezider Dominik
@@ -698,7 +683,6 @@ czecho_slovak_culture_group = {
 		Masaryk Móry Moyses Rázus Rohácek Rudnay Selepcéni Sidor Skultéty-Gábris Smik
 		Sokol Stefánik Suchon Sverma Tiso Trcka Tuka Turanec Viest Zoch }
 	}
-	union = CZH
 }
 
 east_slavic = {
@@ -741,6 +725,13 @@ east_slavic = {
 							Paskevich Petliura Radchenko Shevchenko Skoropadskyi Stefaniv Tymoshenko Vitovsky }
 			radicalism = 10
         }
+	ugrian = {  
+		color = {60 160 160}
+		first_names = { Aleksandr Dmitri Ivan Jukka Santeri Vladimir }
+
+		last_names = { Kokko Likhachev Mamin Minin Sibiriak  Tikhanov Zubov }
+	}
+
 }
 
 baltic = {
@@ -794,7 +785,7 @@ baltic = {
 		Sikkar Sirk Tõnisson Uluots Vaga Veske Vilbaste Vilms "von Uexküll" Warma
 		}
 	}
-	union = UBD
+
 }
 
 levantine = {
@@ -1160,13 +1151,6 @@ iranian_turanian = {
 			Amirkhanov Faysi Gizzat Ibragimov Kamal Khusainov Tinchurin Tukay Yanbayev
 		}
 	}
-	ugrian = {  
-		color = {60 160 160}
-		first_names = { Aleksandr Dmitri Ivan Jukka Santeri Vladimir }
-
-		last_names = { Kokko Likhachev Mamin Minin Sibiriak  Tikhanov Zubov }
-	}
-
 }
 
 central_asian = {
@@ -1183,6 +1167,27 @@ central_asian = {
                Genden Amar Tserendorj Tomorbaatar Damdinbazar Bodoo Sukhbaatar Jamyan Choibalsan Chagdarjav
 		}
 	}
+	
+	siberian = {
+		color = {40 240 240}
+		first_names = {
+               Aleksandr Diniyar Mirsayet Sihabetdin Gabdull Afanasiy Viktor Grigory 
+		}
+		last_names = { 
+               Shaimiev Bilyaletdinov Shchapov Yadrintsev Krakovetsky Kolchak Potanin Shashkov
+		}
+	}
+
+	yakut = {
+		color = {95 87 32}
+		first_names = { 
+			Aysen Nyurgun Elley Aytal Manchaary
+		}
+		last_names = { 
+              Okhlopkov Shishigin Shtyrov Ondar Sivtsev 
+		}
+	}
+	
 	tibetan = {
 		color = {99 43 89}
 		first_names = { 
@@ -1193,24 +1198,6 @@ central_asian = {
                Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
 		}
 		radicalism = 10
-	}
-	siberian = {
-		color = {40 240 240}
-		first_names = {
-               Aleksandr Diniyar Mirsayet Sihabetdin Gabdull Afanasiy Viktor Grigory 
-		}
-		last_names = { 
-               Shaimiev Bilyaletdinov Shchapov Yadrintsev Krakovetsky Kolchak Potanin Shashkov
-		}
-	}
-	yakut = {
-		color = {95 87 32}
-		first_names = { 
-			Aysen Nyurgun Elley Aytal Manchaary
-		}
-		last_names = { 
-              Okhlopkov Shishigin Shtyrov Ondar Sivtsev 
-		}
 	}
 }
 
@@ -1924,6 +1911,19 @@ american_cultures = {
 		}
 		radicalism = 10
 	}
+	union = USA
+}
+
+neo_european_cultures = {
+	leader = european
+	is_overseas = no
+	boer = {
+		color = {220 145 0}
+		first_names = { Sarel Rudolf Andries Hendrik Piet Racheltjie Dirkie Siener Koos Danie Christiaan Louis Petrus Paul Eugene Joubert
+		}
+		last_names = { Cilliers Botha Joubert Kruger Duquesne Potgieter "van Rensburg" "de la Rey" Theron "de Wet" Pretorius Retief "de Beer" Uys 
+		}
+	}
 	anglo_canadian = {
 		color = {248 165 255}
 		first_names = { Charles John Frederick Douglas Patrick Leonard Henry Arthur Alexander Campbell Gilbert Albert Victor Julian Francis James
@@ -1931,7 +1931,14 @@ american_cultures = {
 		last_names = { Grey Elliot Hamilton Gordon Stanley Campbell Ross Petty-Fitzmaurice Windham Young Doyle Hastings Blackwood MacDougall
 		}
 	}
-	union = USA
+	french_canadian = { 
+		color = {168 195 255}
+		radicalism = 10
+		first_names = { Narcisse René Èdouard Luc Letellier Théodore Louis Francois Auguste Joseph Pierre Luis-Phillippe Jean Gaspard Eugéne Èssioff Huguel Jean-Pierre Gilles
+		}
+		last_names = { Belleau Caron "de St.-Just" Robitaille Masson Angers Chapleau Jotte Pantaléon Langelier Damasne LeBlanc Brodeur Perodeau
+		}
+	}
 }
 
 central_american_cultures = {

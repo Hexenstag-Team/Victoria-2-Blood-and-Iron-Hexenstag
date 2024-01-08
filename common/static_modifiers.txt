@@ -149,8 +149,8 @@ base_values = {
 war = {
 	max_war_exhaustion = 100			#base max at war.
 	supply_consumption = -0.5
-	war_exhaustion = 0.1
-	badboy = -0.125
+	#war_exhaustion = 0.1
+	badboy = -0.033
 	cb_generation_speed_modifier = 0.8
 	import_cost = 0.01
 }
@@ -159,12 +159,12 @@ peace = {
 	max_war_exhaustion = 50			#base max at peace.
 	supply_consumption = -0.5
 	war_exhaustion = -1
-	badboy = -0.25
+	badboy = -0.1
 	cb_generation_speed_modifier = 0.6
 }
 
 disarming = {
-	badboy = -0.5
+	badboy = -0.1
 }
 
 war_exhaustion = {
@@ -198,7 +198,7 @@ great_power = {
 	diplomatic_points_modifier = 1.0
 	cb_generation_speed_modifier = 0.1
 	leadership = 2.0
-	badboy = -0.25
+	badboy = -0.01
 	global_immigrant_attract = 0.20
 }
 
@@ -207,7 +207,6 @@ second_power = {
 	research_points = 1.25
 	diplomatic_points_modifier = 0.25
 	leadership = 1.0
-	badboy = -0.125
 	global_immigrant_attract = 0.05
 }
 
@@ -219,7 +218,7 @@ civ_nation = {
 
 unciv_nation = {
 	prestige = -0.01
-	badboy = -1
+	badboy = -0.1
 	mobilisation_size = -0.1
 	diplomatic_points_modifier = -0.25
 	cb_generation_speed_modifier = 0.9

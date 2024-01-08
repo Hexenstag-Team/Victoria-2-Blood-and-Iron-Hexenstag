@@ -438,6 +438,11 @@ colonialmigration_chance = {
 		state_scope = { has_factories = yes }
 	}
 
+	modifier = {
+		factor = 0.1
+		country = { has_country_flag = penal_colonies }
+	}
+
 	group = {
 		modifier = {
 			factor = 0.3
@@ -777,10 +782,9 @@ assimilation_chance = {
 			NOT = {
 				OR = {
 					is_culture_group = american_cultures
+					is_culture_group = neo_european_cultures
 					is_culture_group = central_american_cultures
 					is_culture_group = south_american_cultures
-					culture = boer
-					culture = french_canadian
 				}
 			}
 			location = { is_core = THIS }

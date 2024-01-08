@@ -196,7 +196,14 @@ political_decisions = {
 						tag = QAT
 					}
 				}
+				all_core = { add_core = ARA }
 				annex_to = THIS
+			}
+			any_country = {
+				limit = {
+					tag = ZAN
+				}
+				all_core = { remove_core = ARA }
 			}
 			any_owned = {
 				limit = {
@@ -411,10 +418,7 @@ political_decisions = {
 
 		allow = {
 			civilized = yes
-			OR = {
-				is_greater_power = yes
-				is_secondary_power = yes			
-			}
+			is_greater_power = yes
 			1773 = { empty = no }
 			1782 = { empty = no }
 			1779 = { empty = no }

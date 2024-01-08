@@ -600,6 +600,148 @@ country_event = {
 			relation = { who = THIS value = 200 }
 		}
 		
+		#Austria gets cores back
+		random_country = {
+			limit = {
+				tag = AUS
+				exists = yes
+				truce_with = THIS
+				owns = 612
+				THIS = {
+					OR = {
+						tag = ITA
+						tag = ITP
+					}
+				}
+			}
+			THIS = {
+				any_owned = {
+					limit = {
+						region = AUS_734
+					}
+					add_core = AUS
+				}
+			}
+		}
+
+		random_country = {
+			limit = {
+				tag = KUK
+				exists = yes
+				truce_with = THIS
+				owns = 612
+				THIS = {
+					OR = {
+						tag = ITA
+						tag = ITP
+					}
+				}
+			}
+			THIS = {
+				any_owned = {
+					limit = {
+						region = AUS_734
+					}
+					add_core = KUK
+				}
+			}
+		}
+
+		random_country = {
+			limit = {
+				tag = AUS
+				exists = yes
+				truce_with = THIS
+				owns = 768
+				THIS = {
+					OR = {
+						tag = ITA
+						tag = ITP
+					}
+				}
+			}
+			THIS = {
+				any_owned = {
+					limit = {
+						region = AUS_736
+					}
+					add_core = AUS
+				}
+			}
+		}
+
+		random_country = {
+			limit = {
+				tag = KUK
+				exists = yes
+				truce_with = THIS
+				owns = 768
+				THIS = {
+					OR = {
+						tag = ITA
+						tag = ITP
+					}
+				}
+			}
+			THIS = {
+				any_owned = {
+					limit = {
+						region = AUS_736
+					}
+					add_core = KUK
+				}
+			}
+		}
+
+		#Austria gets Venice if the Italian unification was opposed
+		random_country = {
+			limit = {
+				tag = AUS
+				exists = yes
+				truce_with = THIS
+				737 = { is_core = AUS }
+				NOT = { has_country_flag = accepts_italy }
+				THIS = {
+					OR = {
+						tag = ITA
+						tag = ITP
+					}
+				}
+			}
+			THIS = {
+				any_owned = {
+					limit = {
+						region = AUS_729
+					}
+					secede_province = AUS
+				}
+			}
+		}
+
+		random_country = {
+			limit = {
+				tag = KUK
+				exists = yes
+				truce_with = THIS
+				737 = { is_core = KUK }
+				NOT = { has_country_flag = accepts_italy }
+				THIS = {
+					OR = {
+						tag = ITA
+						tag = ITP
+					}
+				}
+			}
+			THIS = {
+				any_owned = {
+					limit = {
+						region = AUS_729
+					}
+					secede_province = KUK
+				}
+			}
+		}
+		
 		#release all cores to anyone with a truce
 		any_country = {
 			limit = {
@@ -684,6 +826,24 @@ country_event = {
 						culture_has_union_tag = yes
 					}
 				}
+				NOT = {
+					AND = {
+						tag = SPA
+						is_primary_culture = THIS
+					}
+				}
+				NOT = {
+					AND = {
+						tag = SPC
+						is_primary_culture = THIS
+					}
+				}
+				NOT = {
+					AND = {
+						tag = POR
+						is_primary_culture = THIS
+					}
+				}
 				NOT = { has_country_flag = post_colonial_country }
 			}
 			all_core = {
@@ -704,6 +864,7 @@ country_event = {
 				is_cultural_union = no
 				is_primary_culture = THIS
 				culture_has_union_tag = yes
+				NOT = { has_country_flag = post_colonial_country }
 			}
 			random = {
 				chance = 50
@@ -728,7 +889,6 @@ country_event = {
 				OR = {
 					is_overseas = yes
 					is_colonial = yes
-					NOT = { is_core = THIS }
 				}
 			}
 			owner = { country_event = { id = 96107 days = 2 } }
@@ -2135,6 +2295,7 @@ country_event = {
 			modifier = {
 				factor = 0.5
 				NOT = { is_culture_group = FROM }
+				NOT = { is_culture_group = neo_european_cultures }
 			}
 			modifier = {
 				factor = 1.25
@@ -3431,7 +3592,9 @@ country_event = {
 				truce_with = THIS
 			}
 			693 = { add_core = POL }
+			695 = { add_core = POL }
 			696 = { add_core = POL }
+			697 = { add_core = POL }
 			683 = { add_core = POL }
 			682 = { add_core = POL }
 		}
@@ -3454,7 +3617,9 @@ country_event = {
 				truce_with = THIS
 			}
 			693 = { add_core = PLC }
+			695 = { add_core = PLC }
 			696 = { add_core = PLC }
+			697 = { add_core = PLC }
 			683 = { add_core = PLC }
 			682 = { add_core = PLC }
 		}
@@ -3466,9 +3631,33 @@ country_event = {
 				truce_with = THIS
 				owns = 360
 			}
-			695 = { add_core = RUS }
-			697 = { add_core = RUS }
 			698 = { add_core = RUS }
+		}
+
+		#Russia takes Polish cores
+		random_country = {
+			limit = {
+				tag = RUS
+				exists = yes
+				truce_with = THIS
+				is_greater_power = yes
+				owns = 706
+				owns = 715
+			}
+			THIS = {
+				any_owned = {
+					limit = {
+						OR = {
+							region = PRU_690
+							region = PRU_701
+							province_id = 684
+							province_id = 685
+						}
+					}
+					add_core = RUS
+				}
+			}
+			DZG = { all_core = { remove_core = RUS } }
 		}
 		
 		#if Austria has a truce, release Bavaria as its puppet
@@ -3480,7 +3669,12 @@ country_event = {
 			}
 			THIS = {
 				any_owned = {
-					limit = { region = BAV_599 }
+					limit = {
+						OR = {
+							region = BAV_595
+							region = BAV_599
+						}
+					}
 					add_core = BAV
 					secede_province = AUS
 				}
@@ -3505,7 +3699,12 @@ country_event = {
 			}
 			THIS = {
 				any_owned = {
-					limit = { region = BAV_599 }
+					limit = {
+						OR = {
+							region = BAV_595
+							region = BAV_599
+						}
+					}
 					add_core = BAV
 					secede_province = KUK
 				}
@@ -8260,6 +8459,16 @@ country_event = {
 				add_core = SPC
 			}
 		}
+		random_country = {
+			limit = {
+				tag = IBR
+				exists = yes
+			}
+			517 = {
+				remove_core = ENG
+				add_core = IBR
+			}
+		}
 		
 		#Add French cores, if France is in a truce
 		random_country = {
@@ -10878,6 +11087,7 @@ country_event = {
 		FRA_458 = { add_core = OCC }
 		FRA_461 = { add_core = OCC }
 		465 = { add_core = OCC }
+		464 = { add_core = OCC }
 		466 = { add_core = OCC }
 		FRA_467 = { add_core = OCC }
 		472 = { add_core = OCC }
@@ -10945,17 +11155,25 @@ country_event = {
 			FRA_412 = { secede_province = BAV }
 		}
 
-		any_country = {
+		any_owned = {
 			limit = {
-				tag = SWI
-				exists = yes
+				OR = {
+					province_id = 465
+					province_id = 466
+				}
+				is_core = THIS
 			}
-			random = {
-				chance = 5
-				country_event = 960602
+			random_country = {
+				limit = {
+					tag = SWI
+					exists = yes
+				}
+				random = {
+					chance = 5
+					country_event = 960602
+				}
 			}
 		}
-
 
 		#Add Italian cores, if Italy is in a truce
 		random_country = {
@@ -11085,6 +11303,16 @@ country_event = {
 				truce_with = THIS
 			}
 			country_event = 96093
+		}
+		
+		#release Wallonia, if owned
+		any_country = {
+			limit = {
+				tag = WLL
+				exists = no
+				any_core = { owned_by = THIS }
+			}
+			country_event = 96060
 		}
 
 		#Add Spanish cores, if Spain is in a truce
@@ -12439,11 +12667,24 @@ country_event = {
 			limit = {
 				tag = RUS
 				truce_with = THIS
+				is_greater_power = yes
+				NOT = { exists = CPL }
 				NOT = { exists = POL }
 				NOT = { exists = PLC }
 				THIS = { owns = 702 }
 			}
 			AUS_702 = { add_core = RUS }
+			THIS = {
+				any_owned = {
+					limit = {
+						OR = {
+							province_id = 689
+							province_id = 2584
+						}
+					}
+					add_core = RUS
+				}
+			}
 		}
 
 		#Poland gets cores back, if it exists			
@@ -12470,7 +12711,7 @@ country_event = {
 			}
 			add_core = RUS
 		}
-				
+		
 		#if any Polish cores owned, re-add cores to Germany
 		any_owned = {
 			limit = {
@@ -12589,14 +12830,20 @@ country_event = {
 			country_event = 96015
 		}
 
-		any_country = {
+		any_owned = {
 			limit = {
-				tag = SWI
-				exists = yes
+				province_id = 614
+				is_core = THIS
 			}
-			random = {
-				chance = 15
-				country_event = 960601
+			random_country = {
+				limit = {
+					tag = SWI
+					exists = yes
+				}
+				random = {
+					chance = 15
+					country_event = 960601
+				}
 			}
 		}
 
@@ -12671,6 +12918,7 @@ country_event = {
 				NOT = { tag = KUK }
 				is_cultural_union = no
 				is_culture_group = germanic
+				NOT = { has_country_flag = post_colonial_country }
 			}
 			country_event = 96018
 		}
@@ -13599,7 +13847,7 @@ country_event = {
 				capital_scope = { owned_by = THIS }
 			}
 			THIS = { set_country_flag = releasing_colonies }
-			THIS = { country_event = { id = 96096 days = 10 } }
+			THIS = { country_event = 96096 }
 		}
 
 		#add fascism and punitive effects
@@ -19002,15 +19250,21 @@ country_event = {
 	
 	option = {
 		name = "EVT96091OPTA"
-		396 = { 
-			add_core = THIS
+		396 = {
+			add_core = WLL
 			secede_province = THIS 
 			remove_core = PRU
 			remove_core = NGF
 			remove_core = GER
 			remove_core = GCF
 		}
-		
+		any_owned = {
+			limit = {
+				province_id = 395
+				is_core = THIS
+			}
+			396 = { add_core = THIS }
+		}
 	}
 }
 

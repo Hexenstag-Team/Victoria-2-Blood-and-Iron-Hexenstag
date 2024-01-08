@@ -48,7 +48,7 @@ party = {
 party = {
 	name = "RUS_communist_2"
 	start_date = 1903.1.1
-	end_date = 9999.12.31
+	end_date = 2000.1.1
 
 	ideology = communist
 
@@ -62,7 +62,7 @@ party = {
 party = {
 	name = "RUS_socialist"
 	start_date = 1903.1.1
-	end_date = 9999.12.31
+	end_date = 2000.1.1
 
 	ideology = socialist
 
@@ -76,7 +76,7 @@ party = {
 party = {
 	name = "RUS_reactionary"
 	start_date = 1830.1.1
-	end_date = 9999.12.31
+	end_date = 2000.1.1
 
 	ideology = reactionary
 
@@ -90,7 +90,7 @@ party = {
 party = {
 	name = "RUS_liberal_2"
 	start_date = 1900.1.1
-	end_date = 9999.12.31
+	end_date = 2000.1.1
 
 	ideology = liberal
 
@@ -104,7 +104,7 @@ party = {
 party = {
 	name = "RUS_conservative_2"
 	start_date = 1900.1.1
-	end_date = 9999.12.31
+	end_date = 2000.1.1
 
 	ideology = conservative
 
@@ -132,7 +132,7 @@ party = {
 party = {
 	name = "RUS_socialist_3"
 	start_date = 1881.1.1
-	end_date = 9999.12.31
+	end_date = 2000.1.1
 
 	ideology = socialist
 
@@ -146,7 +146,7 @@ party = {
 party = {
 	name = "RUS_anarcho_liberal"
 	start_date = 1830.1.1
-	end_date = 9999.12.31
+	end_date = 2000.1.1
 
 	ideology = anarcho_liberal
 
@@ -160,7 +160,7 @@ party = {
 party = {
 	name = "RUS_fascist"
 	start_date = 1900.1.1
-	end_date = 9999.12.31
+	end_date = 2000.1.1
 
 	ideology = fascist
 

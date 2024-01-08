@@ -27,11 +27,10 @@ province_event = {
 					is_culture_group = oceanic
 					is_culture_group = native_american
 					is_culture_group = american_cultures
+					is_culture_group = neo_european_cultures
 					is_culture_group = central_american_cultures
 					is_culture_group = south_american_cultures
 					is_culture_group = african_diaspora_cultures
-					culture = boer
-					culture = french_canadian
 				}
 			}
 		}
@@ -123,11 +122,10 @@ province_event = {
 					is_culture_group = oceanic
 					is_culture_group = native_american
 					is_culture_group = american_cultures
+					is_culture_group = neo_european_cultures
 					is_culture_group = central_american_cultures
 					is_culture_group = south_american_cultures
 					is_culture_group = african_diaspora_cultures
-					culture = boer
-					culture = french_canadian
 				}
 			}
 			unemployment = 0.6
@@ -218,11 +216,10 @@ province_event = {
 					is_culture_group = oceanic
 					is_culture_group = native_american
 					is_culture_group = american_cultures
+					is_culture_group = neo_european_cultures
 					is_culture_group = central_american_cultures
 					is_culture_group = south_american_cultures
 					is_culture_group = african_diaspora_cultures
-					culture = boer
-					culture = french_canadian
 				}
 			}
 		}
@@ -319,11 +316,10 @@ province_event = {
 					is_culture_group = oceanic
 					is_culture_group = native_american
 					is_culture_group = american_cultures
+					is_culture_group = neo_european_cultures
 					is_culture_group = central_american_cultures
 					is_culture_group = south_american_cultures
 					is_culture_group = african_diaspora_cultures
-					culture = boer
-					culture = french_canadian
 				}
 			}
 		}
@@ -409,11 +405,10 @@ province_event = {
 					is_culture_group = oceanic
 					is_culture_group = native_american
 					is_culture_group = american_cultures
+					is_culture_group = neo_european_cultures
 					is_culture_group = central_american_cultures
 					is_culture_group = south_american_cultures
 					is_culture_group = african_diaspora_cultures
-					culture = boer
-					culture = french_canadian
 				}
 			}
 		}
@@ -505,11 +500,10 @@ province_event = {
 					is_culture_group = oceanic
 					is_culture_group = native_american
 					is_culture_group = american_cultures
+					is_culture_group = neo_european_cultures
 					is_culture_group = central_american_cultures
 					is_culture_group = south_american_cultures
 					is_culture_group = african_diaspora_cultures
-					culture = boer
-					culture = french_canadian
 				}
 			}
 		}
@@ -614,11 +608,10 @@ province_event = {
 					is_culture_group = oceanic
 					is_culture_group = native_american
 					is_culture_group = american_cultures
+					is_culture_group = neo_european_cultures
 					is_culture_group = central_american_cultures
 					is_culture_group = south_american_cultures
 					is_culture_group = african_diaspora_cultures
-					culture = boer
-					culture = french_canadian
 				}
 			}
 		}
@@ -710,11 +703,10 @@ province_event = {
 					is_culture_group = oceanic
 					is_culture_group = native_american
 					is_culture_group = american_cultures
+					is_culture_group = neo_european_cultures
 					is_culture_group = central_american_cultures
 					is_culture_group = south_american_cultures
 					is_culture_group = african_diaspora_cultures
-					culture = boer
-					culture = french_canadian
 				}
 			}
 		}
@@ -795,11 +787,10 @@ province_event = {
 					is_culture_group = oceanic
 					is_culture_group = native_american
 					is_culture_group = american_cultures
+					is_culture_group = neo_european_cultures
 					is_culture_group = central_american_cultures
 					is_culture_group = south_american_cultures
 					is_culture_group = african_diaspora_cultures
-					culture = boer
-					culture = french_canadian
 				}
 			}
 		}
@@ -898,11 +889,10 @@ province_event = {
 					is_culture_group = oceanic
 					is_culture_group = native_american
 					is_culture_group = american_cultures
+					is_culture_group = neo_european_cultures
 					is_culture_group = central_american_cultures
 					is_culture_group = south_american_cultures
 					is_culture_group = african_diaspora_cultures
-					culture = boer
-					culture = french_canadian
 				}
 			}
 		}
@@ -995,11 +985,10 @@ province_event = {
 					is_culture_group = oceanic
 					is_culture_group = native_american
 					is_culture_group = american_cultures
+					is_culture_group = neo_european_cultures
 					is_culture_group = central_american_cultures
 					is_culture_group = south_american_cultures
 					is_culture_group = african_diaspora_cultures
-					culture = boer
-					culture = french_canadian
 				}
 			}
 		}
@@ -1079,11 +1068,10 @@ province_event = {
 					is_culture_group = oceanic
 					is_culture_group = native_american
 					is_culture_group = american_cultures
+					is_culture_group = neo_european_cultures
 					is_culture_group = central_american_cultures
 					is_culture_group = south_american_cultures
 					is_culture_group = african_diaspora_cultures
-					culture = boer
-					culture = french_canadian
 				}
 			}
 		}
@@ -1162,11 +1150,10 @@ province_event = {
 					is_culture_group = oceanic
 					is_culture_group = native_american
 					is_culture_group = american_cultures
+					is_culture_group = neo_european_cultures
 					is_culture_group = central_american_cultures
 					is_culture_group = south_american_cultures
 					is_culture_group = african_diaspora_cultures
-					culture = boer
-					culture = french_canadian
 				}
 			}
 		}
@@ -1257,11 +1244,10 @@ province_event = {
 					is_culture_group = oceanic
 					is_culture_group = native_american
 					is_culture_group = american_cultures
+					is_culture_group = neo_european_cultures
 					is_culture_group = central_american_cultures
 					is_culture_group = south_american_cultures
 					is_culture_group = african_diaspora_cultures
-					culture = boer
-					culture = french_canadian
 				}
 			}
 		}

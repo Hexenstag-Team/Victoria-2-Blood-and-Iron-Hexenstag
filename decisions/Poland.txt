@@ -41,10 +41,7 @@ political_decisions = {
 
 		allow = {
 			war = no
-			OR = {
-				is_greater_power = yes
-				is_secondary_power = yes			
-			}
+			is_greater_power = yes
 			owns = 706
 			owns = 703
 			360 = {
@@ -604,10 +601,21 @@ political_decisions = {
 		picture = form_baltic_states
 		potential = {
 			NOT = {
+				tag = RUS
+				tag = PLC
 				exists = UBD
+				is_culture_group = baltic
 				has_global_flag = baltic_states_formed
 			}
-			is_culture_group = germanic
+			OR = {
+				tag = GER
+				tag = PRU
+				tag = NGF
+				tag = SGF
+				tag = AUS
+				tag = KUK
+				tag = GCF
+			}
 			OR = {
 				any_owned_province = {
 					any_neighbor_province = {
@@ -708,7 +716,6 @@ political_decisions = {
 			UBD = {
 				primary_culture = north_german
 				add_accepted_culture = latvian
-				add_accepted_culture = estonian
 			}			
 			RUS = { relation = { who = THIS value = -50 } }
 		}
@@ -726,7 +733,14 @@ political_decisions = {
 				exists = UBD
 				is_culture_group = baltic
 				has_global_flag = baltic_states_formed
-				is_culture_group = germanic
+				OR = {
+					tag = GER
+					tag = PRU
+					tag = NGF
+					tag = SGF
+					tag = AUS
+					tag = KUK
+				}
 			}
 			OR = {
 				any_owned_province = {

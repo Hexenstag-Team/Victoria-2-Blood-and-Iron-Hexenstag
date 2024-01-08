@@ -15,8 +15,8 @@ political_decisions = {
 			is_vassal = no
 			prestige = 100
 			OR = {
+				is_secondary_power = yes
 				is_greater_power = yes
-				is_secondary_power = yes			
 			}
 			530 = {
 				OR = {

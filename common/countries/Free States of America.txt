@@ -4,7 +4,7 @@ color = { 0  162  220 }
 party = {
 	name = "USA_liberal"
 	start_date = 1854.1.1
-	end_date = 9999.12.31
+	end_date = 2000.1.1
 
 	ideology = liberal
 
@@ -18,7 +18,7 @@ party = {
 party = {
 	name = "USA_conservative"
 	start_date = 1820.1.1
-	end_date = 9999.12.31
+	end_date = 2000.1.1
 
 	ideology = conservative
 
@@ -88,7 +88,7 @@ party = {
 party = {
 	name = "USA_socialist"
 	start_date = 1848.1.1
-	end_date = 9999.12.31
+	end_date = 2000.1.1
 
 	ideology = socialist
 
@@ -102,7 +102,7 @@ party = {
 party = {
 	name = "USA_reactionary"
 	start_date = 1820.1.1
-	end_date = 9999.12.31
+	end_date = 2000.1.1
 
 	ideology = reactionary
 
@@ -116,7 +116,7 @@ party = {
 party = {
 	name = "USA_anarcho_liberal"
 	start_date = 1830.1.1
-	end_date = 9999.12.31
+	end_date = 2000.1.1
 
 	ideology = anarcho_liberal
 
@@ -130,7 +130,7 @@ party = {
 party = {
 	name = "USA_communist"
 	start_date = 1848.1.1
-	end_date = 9999.12.31
+	end_date = 2000.1.1
 
 	ideology = communist
 
@@ -144,7 +144,7 @@ party = {
 party = {
 	name = "USA_fascist"
 	start_date = 1900.1.1
-	end_date = 9999.12.31
+	end_date = 2000.1.1
 
 	ideology = fascist
 

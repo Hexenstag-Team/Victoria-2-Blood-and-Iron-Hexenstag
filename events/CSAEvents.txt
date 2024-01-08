@@ -755,13 +755,23 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 7
+		months = 3
 	}
 	
 	option = {
 		name = "EVTOPTA187700"
 		plurality = 5
 		prestige = 15
+		any_pop = {
+			limit = {
+				OR = {
+					is_primary_culture = yes
+					is_accepted_culture = yes
+				}
+			}
+			consciousness = -1
+			militancy = -1
+		}
 	}
 }
 
@@ -3262,10 +3272,9 @@ province_event = {
 					is_culture_group = oceanic
 					is_culture_group = native_american
 					is_culture_group = american_cultures
+					is_culture_group = neo_european_cultures
 					is_culture_group = central_american_cultures
 					is_culture_group = african_diaspora_cultures
-					culture = boer
-					culture = french_canadian
 				}
 			}
 		}
@@ -3332,10 +3341,9 @@ province_event = {
 						is_culture_group = oceanic
 						is_culture_group = native_american
 						is_culture_group = american_cultures
+						is_culture_group = neo_european_cultures
 						is_culture_group = central_american_cultures
 						is_culture_group = african_diaspora_cultures
-						culture = boer
-						culture = french_canadian
 					}
 				}
 				type = craftsmen

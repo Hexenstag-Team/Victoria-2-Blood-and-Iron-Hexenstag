@@ -47,7 +47,7 @@ party = {
 party = {
 	name = "GMJ_anarcho_liberal"
 	start_date = 1830.1.1
-	end_date = 9999.12.31
+	end_date = 2000.1.1
 
 	ideology = anarcho_liberal
 
@@ -61,7 +61,7 @@ party = {
 party = {
 	name = "GMJ_socialist"
 	start_date = 1848.1.1
-	end_date = 9999.12.31
+	end_date = 2000.1.1
 
 	ideology = socialist
 
@@ -75,7 +75,7 @@ party = {
 party = {
 	name = "GMJ_communist"
 	start_date = 1890.1.1
-	end_date = 9999.12.31
+	end_date = 2000.1.1
 
 	ideology = communist
 
@@ -89,7 +89,7 @@ party = {
 party = {
 	name = "GMJ_fascist"
 	start_date = 1900.1.1
-	end_date = 9999.12.31
+	end_date = 2000.1.1
 
 	ideology = fascist
 

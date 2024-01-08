@@ -1,6 +1,7 @@
 capital = 123
 primary_culture = yankee
 culture = dixie
+culture = texan
 culture = anglo_canadian
 religion = protestant
 government = democracy

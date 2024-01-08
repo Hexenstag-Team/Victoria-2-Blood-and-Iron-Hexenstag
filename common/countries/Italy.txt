@@ -1,11 +1,12 @@
 color = { 125  171  84 }
+proletarian_dictatorship = { 109 94 73 }
 fascist_dictatorship = { 150 200 110}
 graphical_culture = ItalianGC
 
 party = {
 	name = "ITA_reactionary"
 	start_date = 1830.1.1
-	end_date = 9999.12.31
+	end_date = 2000.1.1
 
 	ideology = reactionary
 
@@ -19,7 +20,7 @@ party = {
 party = {
 	name = "ITA_conservative"
 	start_date = 1830.1.1
-	end_date = 9999.12.31
+	end_date = 2000.1.1
 
 	ideology = conservative
 
@@ -47,7 +48,7 @@ party = {
 party = {
 	name = "ITA_liberal_2"
 	start_date = 1890.1.1
-	end_date = 9999.12.31
+	end_date = 2000.1.1
 
 	ideology = liberal
 
@@ -61,7 +62,7 @@ party = {
 party = {
 	name = "ITA_conservative_2"
 	start_date = 1880.1.1
-	end_date = 9999.12.31
+	end_date = 2000.1.1
 
 	ideology = conservative
 
@@ -75,7 +76,7 @@ party = {
 party = {
 	name = "ITA_conservative_3"
 	start_date = 1848.1.1
-	end_date = 9999.12.31
+	end_date = 2000.1.1
 
 	ideology = conservative
 
@@ -89,7 +90,7 @@ party = {
 party = {
 	name = "ITA_socialist"
 	start_date = 1848.1.1
-	end_date = 9999.12.31
+	end_date = 2000.1.1
 
 	ideology = socialist
 
@@ -103,7 +104,7 @@ party = {
 party = {
 	name = "ITA_anarcho_liberal"
 	start_date = 1830.1.1
-	end_date = 9999.12.31
+	end_date = 2000.1.1
 
 	ideology = anarcho_liberal
 
@@ -117,7 +118,7 @@ party = {
 party = {
 	name = "ITA_communist"
 	start_date = 1848.1.1
-	end_date = 9999.12.31
+	end_date = 2000.1.1
 
 	ideology = communist
 
@@ -131,7 +132,7 @@ party = {
 party = {
 	name = "ITA_fascist"
 	start_date = 1900.1.1
-	end_date = 9999.12.31
+	end_date = 2000.1.1
 
 	ideology = fascist
 

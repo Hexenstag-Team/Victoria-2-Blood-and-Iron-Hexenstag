@@ -1314,7 +1314,7 @@ country_event = {
 		1723 = { secede_province = THIS }
 		enable_canal = 3
 		2325 = { remove_province_modifier = gateway_to_harbor }
-		1723 = { set_province_flag = panama_canal } # canal sprite
+		1723 = { set_province_flag = panama_canal }
 		1723 = {
 			add_province_modifier = {
 				name = panama_canal
